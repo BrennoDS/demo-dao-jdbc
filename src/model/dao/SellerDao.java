@@ -12,7 +12,7 @@ public interface SellerDao {
 	
 	void deleteById(Integer id);
 	
-	Department findByID(Integer id);
+	Seller findByID(Integer id);
 	
 	List<Department> findAll();
 }
