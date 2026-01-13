@@ -42,6 +42,10 @@ public class Program {
 		sellerDao.update(seller);
 		System.out.println("Update Complete");
 		
+		System.out.println("===Teste 6: Delete===");
+		int id = 1;
+		sellerDao.deleteById(id);
+		System.out.println("Deletado com sucesso");
 	}
 }
 	
